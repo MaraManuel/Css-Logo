@@ -1,0 +1,873 @@
+body{
+
+    background-color: rgb( 163,73,164);
+}
+
+
+/*________________________________________Quadro de cabeçaho________________________________________*/
+#tabelaCabecalho{
+
+    padding-top: 10px;
+    padding-left: 0px;
+
+}
+#dQuadro1DeCabecalho{
+
+    width: 235px;
+    height: 165px;
+    background-color: transparent;
+    border: 2px solid ;
+    border-color: transparent rgb(227,193,227) transparent transparent;
+    position: absolute;
+    margin-top: -72px;
+    margin-left: -12px;
+}
+
+#dPerfilDeCabecalho{
+
+    background-color: rgb(227,193,227);
+    width: 67px;
+    height: 58px;
+    margin-top: 7px;
+    position: relative;
+
+}
+#dPerfilDeCabecalho:after{
+
+    content:"";
+    position: absolute;
+    background-color: transparent;
+    border:solid 1px;
+    border-color:  rgb( 163,73,164) transparent transparent rgb( 163,73,164);
+     width: 64px;
+    height: 55px;
+    top: 1px;
+    left: 1px;
+
+}
+
+
+
+#imagemDePerfilDeCabecalho{
+
+    margin-top: 2px;
+    border-color: tran;
+
+}
+
+#dNomeDePerfilDeCabecalho{
+
+    margin-top: 10px;
+    background-color: white;
+    width: 95px;
+    height: 20px;
+}
+
+#fontNomeDePerfilDeCabecalho{
+
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium';
+
+}
+
+/*#tabelaDeBotoesDeNavegacao tr td{
+
+}*/
+
+.botoesDeNavegacao{
+ 
+    background-color: white;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    border: 1px solid transparent;
+    border-bottom: 2px solid rgb(245, 159, 245); 
+    border-right: 2px solid rgb(245, 159, 245);
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 10px;
+
+}
+
+ 
+.botoesDeNavegacao:hover {
+
+    
+    border: 1px solid rgb(224, 83, 224);
+    border-bottom: 2px solid rgb(224, 83, 224); 
+    border-right: 2px solid rgb(224, 83, 224);
+}
+
+/* Quadro do perfi_______________________________________________________________________________________________*/
+
+#dQuadroDePerfil{
+
+    background-color: rgb( 200,191,231);
+    width: 480px;
+    height: 123px;    
+
+}
+#tabelaQuadroDePerfil{
+    padding: 10px;
+
+}
+
+#tabelaQuadroDePerfil tr td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#dCirculoDePerfil{
+
+    background-color: white;
+    border-radius: 50%;
+    width: 95px;
+    height: 95px; 
+
+}
+
+#dInformacaoDePerfil{
+    background-color: white;
+    height: 95px;
+    width: 320px;
+    
+}
+#tabelaDeInformacaoDePerfil{
+    padding: 7px 10px 10px 10px;
+    
+}
+
+#tdNomeDePerfil{
+    text-align: center;
+    
+}
+#tdTextoDePerfil{
+    text-align: justify;
+}
+
+#fontNomeDePerfil{
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 17px;
+    
+
+}
+
+#fontTextoDePerfil{
+    font-family: 'Comic Sans MS';
+    font-size: 11.90px;
+    text-align: justify;
+
+}
+/*Fim do Quadro de Perfil---------------------------------XXXXXXXX---------------------------------------------*/
+
+
+
+/*____________________________________________ Fio,Molas e os Stickers__________________________________________________________*/
+
+#tdTabelaDeMolasEFios{
+
+    padding-left: 275px;
+   
+    
+}
+
+
+#tabelaDeMolasEStickers{
+
+    padding-left: 5px;
+}
+
+#dFio1{
+    margin-top: 5px;
+    background-color: transparent;
+    border: solid 1.45px ;
+    border-color: rgb(255,210,55) transparent transparent transparent ;
+    width: 941px;
+    height: 110px; 
+    animation-name: none;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+
+}
+
+#dFio2{
+    margin-top: -1px;
+    background-color: transparent;
+    border: solid 1.45px ;
+    border-color:  transparent ;
+    width: 941px;
+    height: 110px; 
+    animation-name: none;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    margin-left: -10px;
+
+}
+
+#dFio2:hover{
+
+    
+    animation-name: animaMolasEStickers;
+}
+
+@keyframes animaMolasEStickers{
+
+    from{
+
+        margin-left: -10px;
+
+    }
+
+    50%{
+         
+
+        margin-left: 20px;
+    }
+
+ 
+ 
+ 
+
+
+    to{
+
+        margin-left:  -10px;
+       
+
+    }
+}
+
+#tabelaDeMolasEStickers tr td{
+    
+
+    padding-right: 12px ;
+    padding-left: 12px ;
+
+
+}
+
+#dMolaPequena{
+    background-color:rgb(255,255,128) ;
+    border: solid 1px;
+    border-top-color:rgb(239, 229, 136);
+    border-left-color:transparent;
+    border-right-color: rgb(239,229,136);
+    border-bottom-color: transparent;
+    width: 13px;
+    height: 20px;
+    margin-top: -26px;
+    margin-left: 85px;
+
+
+}
+
+#dSticker{
+
+    margin-left: 14px;
+    background-color: rgb(83,203,255);
+    border: solid 2px rgb(117,214,255);;
+    width:140px;
+    height: 95px;
+    position: relative;
+    margin-top: -5px;
+
+}
+
+#dSticker:after{
+    position: absolute;
+    content:"";
+    width: 12px;
+    height: 55px;
+    background-color: rgb(255,255,128);
+    border: rgb(239,229,136) solid 2px;
+    margin-top: -40px;
+    margin-left: 64px;
+
+
+    
+
+}
+
+/* Fim de Molas e Stickers---------------------------------------XXXXXXXXXXXXXX--------------------------------------------------*/
+
+
+
+
+
+/*______________________________________________Quadro de Conteúdos_________________________________________________________*/
+
+#dQuadroDeConteudos{
+
+    background-color: white;
+    width: 1349px;
+    height:700px ;
+    margin: 35px 0px 0px -8px;
+    position: relative;
+
+
+}
+
+
+
+/*Barra de navegação___________________________________________________________________ 
+
+ #tabelaDosIconesDeBarra tr tdSetaDeNavegacao { 
+
+} 
+
+
+#botaoDeNavegacao{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -40px;
+    margin-right: 378px;
+    border: outset  2px;
+    border-color:transparent rgba(0, 0, 0, 0.801) rgba(0, 0, 0, 0.801) transparent;  
+   
+}
+#imagemDesetaDeNavegacao{
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+ Fim da barra de navegação-----------XXXXXXXXXX-------------*/
+
+
+/* Icones de Barra_________________________________________________________________________________*/
+
+#tabelaDosIconesDeBarra {
+    
+   margin-left: 378px;
+    position: absolute;
+    border: transparent;
+
+}
+
+
+#tabelaDosIconesDeBarra tr td {
+    
+    padding: 0px 20px 0px 20px;
+
+}
+
+#botaoDeIconesDeBarra{
+
+    margin-top: -40px;
+    width: 55px;
+    height: 50px;
+    background-color:white;
+    border-radius: 15%;
+    border: outset  1.5px;
+    border-color:transparent ;  
+   
+   
+}
+
+#botaoDeIconesDeBarra:hover{
+  
+    border-bottom: solid rgb( 163,73,164) 2px;
+    
+    
+}
+#botaoDeIconesDeBarra:focus{
+    animation-name: animaBotaoDeIconesDeBarra;
+    animation-duration: 0.2s;
+}
+@keyframes animaBotaoDeIconesDeBarra{
+
+    from{
+        
+    border: inset  2px;
+    border-color: rgba(0, 0, 0, 0.801) transparent transparent rgba(0, 0, 0, 0.801) ;
+        
+    }
+    80%{
+        border: inset  2px;
+        border-color: rgba(0, 0, 0, 0.801) transparent transparent rgba(0, 0, 0, 0.801) ;
+       
+    }
+    to{
+        border: outset  2px;
+        border-color:transparent rgba(0, 0, 0, 0.801) rgba(0, 0, 0, 0.801) transparent;  
+   
+    }
+}
+/*#imagemDeIconeDaBarraDeIcones{
+}*/
+
+#tabelaDePesquisa{
+    
+
+    background-color:transparent;
+    margin-top: -52px;
+    border-color:transparent;  
+    margin-left: 60px;
+    
+
+}
+
+#tabelaDePesquisa tr td{
+    
+    padding: 5px 3px 5px 3px;
+}
+
+
+#inputDePesquisa{
+
+    width: 177px;
+    height: 17px;
+    margin-left: 2px;
+    border: solid white 1px;
+
+    
+}
+
+
+
+#botaoOkDePesquisa{
+    width: 27px;
+    height: 17px;
+    background-color: white;
+    border: solid white 1px;
+    margin-top: 1px;
+    position: relative;
+    
+}
+
+#fontDeBotaoOkDePesquisa{
+   
+    font-family: 'Franklin Gothic Medium';
+    font-size: 10px;
+}
+
+
+
+/*Linha Disioria de barra e conteudos_____________________________________________________________________________*/
+
+#linhaDivisoria{
+
+    width: 1040px;
+    color: rgb(227,193,227);
+    height: 1.3px;
+    background-color: rgb(227,193,227);
+    border-color: transparent;
+    position: absolute;
+    top: 18px;
+    left: 140px;
+   
+}
+
+
+/*Fim da linha divioria-------------------XXXXXXXXXXX----------------------------*/
+
+/* Icones de Direita________________________________________________________________________________________________*/
+
+#dBarraDireita{
+
+    
+    background-color: rgb(227,193,227);
+    position: absolute;
+    margin-left: 1267px ;
+    top: 0px;
+    width: 70px;
+    padding: 6px;
+    height:689px ;
+    border-radius:7px 7px 0px 5px;
+
+}
+/*.tabelaDaBarraDireita{
+
+    
+}*/
+.tabelaDaBarraDireita tr td{
+
+    padding-bottom: 14px;
+
+}
+.botaoDaBarraDireita{
+
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px outset;
+    border-color: transparent rgb( 163,73,164) rgb( 163,73,164)  transparent;
+ 
+
+}
+.botaoDaBarraDireita:hover{
+
+    border: 2px outset;
+    border-color: transparent rgb(239, 9, 243) rgb(239, 9, 243) transparent;
+ 
+    
+
+}
+.imagemDoBotaoDaBarraDireita{
+
+    border-radius: 50%;
+    
+
+}
+
+#botaoDeNotificacaoDaBarraDireita{
+
+    margin-top: 20px;
+
+}
+
+
+.botaoDaBarraDireita:focus{
+    animation-name: animaBotaoDaBarraDireita;
+    animation-duration: 0.1s;
+    
+}
+@keyframes animaBotaoDaBarraDireita{
+
+    from{
+        
+        border: 2px inset;
+        border-color: rgb( 163,73,164) transparent   transparent rgb( 163,73,164) ;
+       
+    }
+    80%{
+        border: 2px inset;
+        border-color:  rgb( 163,73,164) transparent   transparent rgb( 163,73,164) ;
+       
+    }
+    to{
+        border: 2px outset;
+        border-color: transparent rgb( 163,73,164) rgb( 163,73,164)  transparent ;
+       
+    }
+}
+
+
+
+/* Fim de ícones da direita________________________*/
+
+
+
+/* Menu fechado_______________________________________________________________________________________________________*/
+#dBarraDeMenuFechado{
+
+    position: absolute;
+    background-color: rgb(227,193,227); 
+    width: 25px;
+    height: 700px;
+    left: -5px;
+    top:  38px;
+    border-radius:0px 5px 0px 0px;
+}
+#tabelaDeMenuFechado{
+ 
+    width: 25px;
+    height: 650px;
+    
+
+}
+
+#tabelaDeMenuFechado tr td{
+
+    padding-top: 10px;
+    margin-bottom:10px ;
+    position: absolute;
+}
+
+#botaoDeMenu{
+    top:2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: outset  2px;
+    border-color:transparent rgba(0, 0, 0, 0.801) rgba(0, 0, 0, 0.801) transparent;  
+}
+#imagemDeBotaoDeMenu{
+
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.dQuadrinhosDeMenu{
+
+    height: 65px;
+    width: 2px;
+    background-color: black;
+    margin-left: -16px;
+   
+     /*  margin-top: -75px;
+   
+    */
+
+}
+#dInicio{
+
+    background-color: rgb(0,162,232);
+   
+}
+
+#dASeguir{
+
+    background-color: rgb(255,0,255);
+}
+
+#dGuardados{
+
+    background-color: rgb(0,255,0);
+}
+
+#dMinhasResponsabilidades{
+
+    background-color: rgb(255,242,0);
+}
+
+#dMeusCadernos{
+
+    background-color: rgb(0,162,232);
+}
+
+#dModoConcentracao{
+
+    background-color: rgb(255,0,255);
+}
+
+#dOutrasOpcoes{
+
+    background-color: rgb(0,255,0);
+}
+
+#dAjustes{
+
+    background-color: rgb(255,242,0);
+}
+
+/*Fim menu Fechado-------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX----------------------*/
+
+/*Menu Aberto_________________________________________________________________________________________________________________*/
+#dBarraDeMenuAberto{
+
+    position: absolute;
+    background-color: rgb(227,193,227); 
+    width: 244px;
+    height: 663px;
+    left: -237px;
+    top:  38px;
+    border-radius:0px 5px 5px 0px; 
+    animation-name: animaDBarraDeMenuFechar;
+    animation-duration: 0.5s;
+
+}
+
+#dBarraDeMenuAberto:hover{
+
+    animation-name: animaDBarraDeMenuAbrir;
+    
+    left: -5px;
+    top:  0px;
+}
+
+@keyframes animaDBarraDeMenuAbrir{
+
+    from{
+        left: -200px;
+        top:  38px;
+    }
+    
+    to{ 
+        left: -5px;
+        top:  0px;
+    }
+}
+
+
+
+@keyframes animaDBarraDeMenuFechar{
+
+    from{
+         left: -5px;
+         top:  0px;
+
+    }
+    
+    to{ 
+        left: -237px;
+        top:  38px;
+    }
+}
+#dQuadroDeConteudos:hover{
+
+}
+#tabelaDeMenuAberto{
+ 
+    width: 244px;
+    height: 650px;
+    
+    
+    
+
+}
+
+#tabelaDeMenuAberto tr td{
+
+    padding: 10px 0px 0px 25px;
+    margin-bottom:10px;
+    
+   
+    
+}
+
+
+.botaoQuadradosDeMenu{
+
+    width: 78px;
+    height: 68px;
+    border-radius: 10px;
+    background-color: white;
+    border: solid white 1px;
+    position: relative;
+}
+
+.botaoQuadradosDeMenu::after{
+
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 68px;
+    left:-12px;
+    background-color: white;
+    top:0px;
+
+}
+.letrasDoMenu{
+    font-family: 'Comic Sans MS';
+    font-size: 12px;
+ 
+}
+#linhaDeDivDeInicio{
+
+    background-color: white;
+     width:50px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:-1px;
+     margin-left:-7px;
+}
+
+#linhaDeDivDeASeguir{
+
+    background-color: white;
+     width:70px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:-1px;
+     margin-left:-7px;
+}
+
+#linhaDeDivDeGuardados{
+
+    background-color: white;
+     width:74px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:-1px;
+     margin-left:-7px;
+}
+
+#linhaDeDivDeMinhasResponsabilidades1{
+
+    background-color: white;
+     width:52px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:-1px;
+     margin-left:-7px;
+}
+
+
+#linhaDeDivDeMinhasResponsabilidades2{
+
+    background-color: white;
+     width:114px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:-1px;
+     margin-left:-7px;
+}
+
+#linhaDeDivDeMeusCadernos{
+
+    background-color: white;
+     width:100px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:-1px;
+     margin-left:-7px;
+}
+
+#linhaDeDivDeModoConcentracao1{
+
+    background-color: white;
+     width:42px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:0px;
+     margin-left:-6px;
+}
+
+#linhaDeDivDeModoConcentracao2{
+
+    background-color: white;
+     width:87px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:0px;
+     margin-left:-6px;
+}
+
+#linhaDeDivDeOutrasOpcoes{
+
+    background-color: white;
+     width:100px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:1px;
+     margin-left:-7px;
+}
+#linhaDeDivDeAjustes1{
+
+    background-color: white;
+     width:77px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:-1px;
+     margin-left:-7px;
+}
+
+#linhaDeDivDeAjustes2{
+
+    background-color: white;
+     width:58px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:-1px;
+     margin-left:-7px;
+}

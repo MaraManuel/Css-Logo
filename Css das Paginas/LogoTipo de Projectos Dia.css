@@ -1,0 +1,524 @@
+body{
+ 
+    background-color:rgb(39, 3, 39);
+     
+}
+ 
+/*  
+CAderno Aberto----------------------------------------------------------------------------------------------------------------------------*/
+#tabelaCaderno{
+ 
+    margin: 70px 0px 0px 240px;
+    animation-name:animaTabelaCaderno ;
+    animation-duration: 1s; 
+    
+} 
+
+@keyframes animaTabelaCaderno{
+    from{
+        margin: 570px 0px 0px -80px;
+        
+    }
+
+    to{
+        margin: 70px 0px 0px 240px;
+    }
+}
+
+#tabelaDeSeccao { 
+    margin-top: 0px;
+}
+
+.seccao{
+
+    width: 50px;
+    height: 10px;
+    background-color: rgb(39, 3, 39);
+    position: relative;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 1px;
+    animation-name: animaSeccao;
+    animation-duration: 2s;
+    
+} 
+
+@keyframes animaSeccao{
+
+    from{
+        width: 0px;
+        height: 0px;
+    }
+
+    to{
+        width: 50px;
+        height: 10px;
+    }
+}
+
+#seccao1{
+    background-color: rgb(227,193,227);
+}
+.seccaoAfter{
+  
+     width: 0px;
+    height: 0px;  
+    left:50px;
+    margin-top: -10px;
+    margin-left: 50px; 
+    animation-name: animaSeccaoAfter;
+    animation-duration: 2s;
+   border-top: solid 5px transparent ;
+   border-left: 5px solid rgb(39, 3, 39);
+   border-bottom: 5px rgb(39, 3, 39) solid;
+   border-right: solid transparent 5px;
+    
+
+}
+
+@keyframes animaSeccaoAfter{
+
+    from{margin-top: 0px;
+        margin-left: 0px; 
+        border-top: solid 0px transparent ;
+        border-left: 0px solid rgb(39, 3, 39);
+        border-bottom: 0px rgb(39, 3, 39) solid;
+        border-right: solid transparent 0px;
+    }
+
+    to{
+        margin-top: -10px;
+        margin-left: 50px; 
+        border-top: solid 5px transparent ;
+        border-left: 5px solid rgb(39, 3, 39);
+        border-bottom: 5px rgb(39, 3, 39) solid;
+        border-right: solid transparent 5px;
+    }
+}
+#seccaoAfter1{
+   border-top: solid 5px transparent ;
+   border-left: 5px solid rgb(227,193,227);
+   border-bottom: 5px rgb(227,193,227) solid;
+   border-right: solid transparent 5px;
+   animation-name: animaSeccaoAfter1;
+   animation-duration: 2s;
+    
+}
+@keyframes animaSeccaoAfter1{
+
+    from{ 
+            
+            margin-top: 0px;
+            margin-left: 0px; 
+            border-top: solid 0px transparent ;
+            border-left: 0px solid rgb(227,193,227);
+            border-bottom: 0px rgb(227,193,227) solid;
+            border-right: solid transparent 0px;
+  
+    }
+
+    to{
+        margin-top: -10px;
+        margin-left: 50px;  
+        border-top: solid 5px transparent ;
+        border-left: 5px solid rgb(227,193,227);
+        border-bottom: 5px rgb(227,193,227) solid;
+        border-right: solid transparent 5px;
+  
+    }
+}
+.nomeDeSeccao{
+
+    font-size: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+#tabelaQuadroPagina{
+
+    background-color:rgb(227,193,227);
+    width: 666px;
+    height: 400px;
+    margin:-7px 0px 0px 0px; 
+    border-radius: 2px;
+    animation: animaTabelaQuadroPagina 2s ;
+    
+    box-shadow: 0px 5px 7px gray;
+
+}
+
+
+@keyframes animaTabelaQuadroPagina{
+
+    from{ 
+        
+        width: 0px;
+        height: 0px;
+        box-shadow: none;    
+  
+    }
+ 
+    90%{box-shadow: none;
+
+    }
+    to{ 
+        width: 666px;
+        height: 400px;
+        box-shadow: 0px 5px 7px gray; 
+         
+  
+    }
+}
+
+.pagina{
+    background-color: rgb( 163,73,164);
+    width: 656px;
+    height: 384px;
+    margin: 10px;
+    animation: animaPagina 2s ;
+    border-radius:2px ;
+
+
+}
+
+@keyframes animaPagina{
+
+    from{ 
+            
+        width: 0px;
+        height: 0px;
+  
+    }
+
+    to{  
+        width: 656px;
+        height: 384px;
+  
+    }
+}
+
+
+#fontPaginas{
+    width: 90px;
+    margin-left:-15px;
+    margin-top:-284px;
+    border-bottom: 1px white solid;
+    padding-bottom: 4px;
+    font-family: 'Comic Sans MS' ;
+    font-size: 16px;
+    color: rgb(176, 128, 89);
+}
+
+
+#tabelaDePaginas{ 
+    animation: animaTabelaDePaginas 2s ;
+    margin-top: -140px;
+    width: 72px;
+    height: 100px; 
+    text-align: center;
+    
+    font-family: 'Calibri' ;
+    font-size: 12px;
+    background-color: rgb(39, 3, 39);
+    margin-left: -8px;
+    border-radius: 2px;
+}
+
+@keyframes animaTabelaDePaginas{
+
+    from{ 
+            
+        width: 0px;
+        height: 0px;
+  
+    }
+
+    to{   width: 72px;
+        height: 100px;
+  
+    }
+}
+ 
+
+.tdPaginas{
+
+    background-color: transparent;  
+    border-radius: 3px;
+    text-align: center;  
+    
+}
+
+@keyframes animaTdPaginas{
+    from{
+
+        background-color: transparent;
+    }
+    6%{
+        
+        background-color: rgba(255, 255, 255, 0.774);
+    }
+    16%{
+        
+        background-color: transparent;
+    }
+    to{
+        
+        background-color: transparent;
+    }
+}
+#tdPaginaInicial{
+    
+    animation-name: animaTdPaginas;
+    animation-delay: 2s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+#tdPagina1{
+    
+    animation-name: animaTdPaginas;
+    animation-delay: 3s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+#tdPagina2{
+    
+    animation-name: animaTdPaginas;
+    animation-delay: 4s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+
+#tdPagina3{
+    
+    animation-name: animaTdPaginas;
+    animation-delay: 5s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+
+#tdPagina4{
+    
+    animation-name: animaTdPaginas;
+    animation-delay: 6s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+.tdPaginas:hover{
+    background-color: rgba(255, 255, 255, 0.774);
+} 
+
+
+#botaoAdicionarPagina{
+
+    width:  40px;
+    height: 40px;
+    background-color: white; 
+    border: 1px outset white ;
+    border-radius: 50%  ;
+} 
+#botaoAdicionarPagina:hover{
+
+background-color: rgba(255, 255, 255, 0.815); 
+}
+
+#botaoAdicionarPagina:active{
+
+border: 1px inset white ;
+} 
+
+
+ 
+.Stick1{
+     width: 90px;
+     height: 110px; 
+     
+     background-color: transparent; 
+     box-shadow: 3px 5px 5px transparent;  
+    border-radius: 2px;
+    text-align: center; 
+    padding: 0px 20px 20px 10px;
+    margin: 34px 20px 20px 10px;
+    animation-name: animaStick1;
+    animation-duration: 12s;
+    animation-iteration-count: infinite; 
+     
+ }
+ 
+@keyframes animaStick1{
+    from{
+        background-color: transparent; 
+        box-shadow: 3px 5px 5px transparent; 
+
+
+
+    }
+    20%{
+        
+    box-shadow: 3px 5px 5px black;
+    background-color: white; 
+
+    }
+     
+    80%{
+        
+        background-color: transparent; 
+        box-shadow: 3px 5px 5px transparent; 
+    }
+
+    to{
+        
+        background-color: transparent; 
+        box-shadow: 3px 5px 5px transparent; 
+
+    }
+}
+#s1{
+    animation-delay: 2s;
+}
+#s2{
+    animation-delay: 3s;
+}
+#s3{
+    animation-delay: 4s;
+} 
+#s4{
+    animation-delay: 5s;
+}
+#s5{
+    animation-delay: 6s;
+}
+#s6{
+    animation-delay: 7s;
+}
+#s7{
+    animation-delay: 8s;
+}
+#s8{
+    animation-delay: 9s;
+}
+ 
+
+
+ .Stick2{
+
+    max-width: 400px;
+    max-height: 450px; 
+    
+    min-width: 250px;
+    min-height: 250px; 
+    border-radius: 2px;
+    background-color: rgb(0, 162, 232); 
+    text-align: center;
+    box-shadow: 3px 5px 5px black; 
+    padding: 0px 10px 10px 16px;
+ }
+ @keyframes animaPin2{
+    from{ 
+        border: 5px outset transparent;
+        background-color: transparent;
+        box-shadow: 1px 1px 3px transparent; 
+        
+    }
+
+    2%{ 
+        background-color:  rgb(39, 3, 39); 
+
+    }
+    5%{
+        border: 5px outset rgb(39, 3, 39);
+        background-color:  rgb(39, 3, 39);
+        box-shadow: 1px 1px 3px black; 
+
+    }
+    20%{
+        border: 5px outset rgb(39, 3, 39);
+        background-color:  rgb(39, 3, 39);
+        box-shadow: 1px 1px 3px black; 
+
+    }
+    70%{
+        border: 5px outset transparent; 
+        box-shadow: 1px 1px 3px transparent; 
+        background-color:  rgb(39, 3, 39);
+
+    }
+    
+    
+    to{
+        border: 5px outset transparent;
+        background-color: transparent;
+        box-shadow: 1px 1px 3px transparent; 
+
+    }
+}
+ 
+#p1{
+    animation-delay: 2s;
+}
+#p2{
+    animation-delay: 3s;
+}
+#p3{
+    animation-delay: 4s;
+} 
+#p4{
+    animation-delay: 5s;
+}
+#p5{
+    animation-delay: 6s;
+}
+#p6{
+    animation-delay: 7s;
+}
+#p7{
+    animation-delay: 8s;
+}
+#p8{
+    animation-delay: 9s;
+}
+ 
+ .pin2{
+ 
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%; 
+    
+   /* border: 5px outset rgb(39, 3, 39);
+    background-color:  rgb(39, 3, 39);
+    box-shadow: 1px 1px 3px black; */
+    border: 5px outset transparent;
+    background-color: transparent;
+    margin-top:-8px;
+    margin-left: 40px;
+    box-shadow: 1px 1px 3px transparent; 
+    animation-name: animaPin2;
+    animation-duration: 12s;
+    animation-iteration-count: infinite; 
+ }
+ 
+ .pin1{
+ 
+    
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%; 
+    border: 5px outset rgb(255, 30, 30);
+    background-color:  rgb(255, 30, 30);
+    margin-top:-8px;
+    margin-left: 40px;
+    box-shadow: 1px 1px 3px black;
+ }
+ 

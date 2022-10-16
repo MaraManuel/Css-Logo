@@ -1,0 +1,387 @@
+body{
+
+    background-color: rgb( 163,73,164);
+}
+
+#tabelaCabecalho{
+
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+/* Quadro do perfi_______________________________________________________________________________________________*/
+
+#dQuadroDePerfil{
+
+    background-color: rgb( 200,191,231);
+    width: 480px;
+    height: 123px;   
+
+}
+#tabelaQuadroDePerfil{
+    padding: 10px;
+
+}
+
+#tabelaQuadroDePerfil tr td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#dCirculoDePerfil{
+
+    background-color: white;
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+
+}
+
+#dInformacaoDePerfil{
+    background-color: white;
+    height: 95px;
+    width: 320px;
+    
+}
+#tabelaDeInformacaoDePerfil{
+    padding: 7px 10px 10px 10px;
+    
+}
+
+#tdNomeDePerfil{
+    text-align: center;
+    
+}
+#tdTextoDePerfil{
+    text-align: justify;
+}
+
+#fontNomeDePerfil{
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 17px;
+    
+
+}
+
+#fontTextoDePerfil{
+    font-family: 'Comic Sans MS';
+    font-size: 11.90px;
+    text-align: justify;
+
+}
+/*Fim do Quadro de Perfil---------------------------------XXXXXXXX---------------------------------------------*/
+
+
+
+/*____________________________________________ Fio,Molas e os Stickers__________________________________________________________*/
+
+#tdTabelaDeMolasEFios{
+
+    padding-left: 30px;
+   
+    
+}
+
+
+#tabelaDeMolasEStickers{
+
+    padding-left: 5px;
+}
+#dFio{
+    margin-top: 5px;
+    background-color: transparent;
+    border: solid 1.45px ;
+    border-color: rgb(255,210,55) transparent transparent transparent;
+    width: 780px;
+    height: 110px;
+
+}
+
+#tabelaDeMolasEStickers tr td{
+    
+
+    padding-right: 12px ;
+    padding-left: 12px ;
+
+
+}
+
+#dMolaPequena{
+    background-color:rgb(255,255,128) ;
+    border: solid 1px;
+    border-top-color:rgb(239, 229, 136);
+    border-left-color:transparent;
+    border-right-color: rgb(239,229,136);
+    border-bottom-color: transparent;
+    width: 13px;
+    height: 20px;
+    margin-top: -26px;
+    margin-left: 85px;
+
+
+}
+
+#dSticker{
+
+    margin-left: 10px;
+    background-color: rgb(83,203,255);
+    border: solid 2px rgb(117,214,255);;
+    width:150px;
+    height: 95px;
+    position: relative;
+    margin-top: -5px;
+
+}
+
+#dSticker:after{
+    position: absolute;
+    content:"";
+    width: 12px;
+    height: 55px;
+    background-color: rgb(255,255,128);
+    border: rgb(239,229,136) solid 2px;
+    margin-top: -40px;
+    margin-left: 64px;
+
+
+    
+
+}
+
+/* Fim de Molas e Stickers---------------------------------------XXXXXXXXXXXXXX--------------------------------------------------*/
+
+
+
+
+
+/*______________________________________________Quadro de Conteúdos_________________________________________________________*/
+
+#dQuadroDeConteudos{
+
+    background-color: white;
+    width: 1335px;
+    height:700px ;
+    margin: 20px 0px 0px -1px;
+    position: relative;
+
+
+}
+
+
+
+/*Barra de navegação___________________________________________________________________*/
+
+/*#tabelaDosIconesDeBarra tr tdSetaDeNavegacao { 
+
+}*/
+
+
+#botaoDeNavegacao{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -40px;
+    margin-right: 378px;
+    border: outset  2px;
+    border-color:transparent rgba(0, 0, 0, 0.801) rgba(0, 0, 0, 0.801) transparent;  
+   
+}
+#imagemDesetaDeNavegacao{
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/*Fim da barra de navegação-----------XXXXXXXXXX-------------*/
+
+
+/* Icones de Barra_________________________________________________________________________________*/
+
+#tabelaDosIconesDeBarra {
+    
+   margin-left: 5px;
+    position: absolute;
+    border: transparent;
+
+}
+
+
+#tabelaDosIconesDeBarra tr td {
+    
+    padding: 0px 20px 0px 20px;
+
+}
+
+#botaoDeIconesDeBarra{
+
+    margin-top: -40px;
+    width: 55px;
+    height: 50px;
+    background-color:white;
+    border-radius: 15%;
+    border: outset  1.5px;
+    border-color:transparent rgba(0, 0, 0, 0.801) rgba(0, 0, 0, 0.801) transparent;  
+   
+   
+}
+
+/*#botaoDeIconesDeBarra:hover{
+  
+    border: solid black 2px;
+}*/
+#botaoDeIconesDeBarra:focus{
+    animation-name: animaBotaoDeIconesDeBarra;
+    animation-duration: 0.2s;
+}
+@keyframes animaBotaoDeIconesDeBarra{
+
+    from{
+        
+    border: inset  2px;
+    border-color: rgba(0, 0, 0, 0.801) transparent transparent rgba(0, 0, 0, 0.801) ;
+        
+    }
+    80%{
+        border: inset  2px;
+        border-color: rgba(0, 0, 0, 0.801) transparent transparent rgba(0, 0, 0, 0.801) ;
+       
+    }
+    to{
+        border: outset  2px;
+        border-color:transparent rgba(0, 0, 0, 0.801) rgba(0, 0, 0, 0.801) transparent;  
+   
+    }
+}
+/*#imagemDeIconeDaBarraDeIcones{
+}*/
+
+#tabelaDePesquisa{
+    
+
+    background-color:transparent;
+    margin-top: -52px;
+    border-color:transparent;  
+    
+
+}
+
+#tabelaDePesquisa tr td{
+    
+    padding: 5px 3px 5px 3px;
+}
+
+
+#inputDePesquisa{
+
+    width: 177px;
+    height: 18px;
+    margin-left: 2px;
+    border: solid white 1px;
+
+    
+}
+
+#botaoOkDePesquisa{
+    width: 25px;
+    height: 18px;
+    background-color: white;
+    border: solid white 1px;
+    padding-bottom: 2px;
+    
+}
+
+#fontDeBotaoOkDePesquisa{
+   
+    font-family: 'Franklin Gothic Medium';
+}
+
+
+
+/*Linha Disioria de barra e conteudos_____________________________________________________________________________*/
+
+#linhaDivisoria{
+
+    width: 1180px;
+    color: rgb(227,193,227);
+    height: 1.5px;
+    background-color: rgb(227,193,227);
+    border-color: transparent;
+    position: absolute;
+    top: 40px;
+    left: 65px;
+   
+}
+
+
+/*Fim da linha divioria-------------------XXXXXXXXXXX----------------------------*/
+
+/* Icones de Direita________________________________________________________________________________________________*/
+.tabelaDaBarraDireita{
+
+    background-color: rgb(227,193,227);
+    position: fixed;
+    margin-left: 1248px ;
+    width: 90px;
+    padding: 6px;
+    /*margin-top: -210px;*/
+    
+}
+.botaoDaBarraDireita{
+
+    margin-top: 50px;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px outset;
+    border-color: transparent rgb( 163,73,164) rgb( 163,73,164)  transparent;
+  
+
+}
+.imagemDoBotaoDaBarraDireita{
+
+    border-radius: 50%;
+
+}
+
+
+.botaoDaBarraDireita:focus{
+    animation-name: animaBotaoDaBarraDireita;
+    animation-duration: 0.1s;
+    
+}
+@keyframes animaBotaoDaBarraDireita{
+
+    from{
+        
+        border: 2px inset;
+        border-color: rgb( 163,73,164) transparent   transparent rgb( 163,73,164) ;
+       
+    }
+    80%{
+        border: 2px inset;
+        border-color:  rgb( 163,73,164) transparent   transparent rgb( 163,73,164) ;
+       
+    }
+    to{
+        border: 2px outset;
+        border-color: transparent rgb( 163,73,164) rgb( 163,73,164)  transparent ;
+       
+    }
+}
+
+
+#botaoDeNotificacaoDaBarraDireita{
+
+    margin-top: 20px;
+
+}
+/* Fim de ícones da direita________________________*/
+
+
+
+

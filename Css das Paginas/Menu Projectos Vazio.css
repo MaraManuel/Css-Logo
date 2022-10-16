@@ -1,0 +1,518 @@
+body{
+
+    background-color: white;
+}
+#dCabecalho{
+
+    background-color: rgb( 163,73,164);
+    width:1349px;
+    height: 30px;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+#tabelaDeCabecalho{
+
+    position: absolute;
+
+}
+
+.botoesDeNavegacao{
+
+    background-color: white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    border: 1px solid transparent;
+    border-bottom: 2px solid rgb(245, 159, 245); 
+    border-right: 2px solid rgb(245, 159, 245);
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top:  0px;
+
+}
+
+ 
+.botoesDeNavegacao:hover {
+
+    
+    border: 1px solid rgb(224, 83, 224);
+    border-bottom: 2px solid rgb(224, 83, 224); 
+    border-right: 2px solid rgb(224, 83, 224);
+}
+
+#inputDePesquisa{
+
+    width: 300px;
+    margin-top: -21px;
+    margin-left: 200px;
+    border: outset 1px white;
+}
+
+#inputDePesquisa:active{
+
+    border: inset 1px white;
+}
+
+#botaoDePesquisa{
+
+    width: 40px;
+    height: 19px;
+    background-color: white;
+    margin-top: -21px;
+    margin-left: 7px;
+
+    border: outset 1px white;
+}
+
+
+#botaoDePesquisa:hover{
+ 
+    border: outset 1px gray;
+}
+
+
+#botaoDePesquisa:active{
+ 
+    border: inset 1px white;
+}
+
+#fontDeBotaoOkDePesquisa{
+   
+    font-family: 'Franklin Gothic Medium';
+    font-size: 10px;
+}
+
+#dInicio{
+
+    background-color: rgb(0,162,232);    
+    margin-left: 48px;
+   
+}
+
+#dASeguir{
+
+    background-color: rgb(255,0,255);
+    margin-left: 30px;
+}
+
+#dGuardados{
+
+    background-color: rgb(0,255,0);
+    margin-left: 21px;
+}
+
+#dMinhasResponsabilidades{
+
+    background-color: rgb(255,242,0);
+    margin-left: -22px;
+}
+
+#dMeusCadernos{
+
+    background-color: rgb(0,162,232);
+    margin-left: -6px;
+}
+
+#dModoConcentracao{
+
+    background-color: rgb(255,0,255);
+    margin-left: 5px;
+}
+
+#dOutrasOpcoes{
+
+    background-color: rgb(0,255,0);
+    margin-left: -5px;
+}
+
+#dAjustes{
+
+    background-color: rgb(255,242,0);
+    margin-left: 15px;
+}
+ 
+
+
+
+
+#botaoDeMenu{
+    top:2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: outset  2px;
+    border-color:transparent rgba(0, 0, 0, 0.801) rgba(0, 0, 0, 0.801) transparent;  
+}
+#imagemDeBotaoDeMenu{
+
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.dQuadrinhosDeMenu{
+
+    height: 60px;
+    width: 2px; 
+    position: absolute;
+    margin-top: -30px;
+   
+     /*  margin-top: -75px;
+   
+    */
+
+}
+
+
+ #dBarraDeMenuAberto{
+
+    position: absolute;
+    background-color: rgb(227,193,227); 
+    width: 239px;
+    height: 597px;
+    left: -231px;
+    top:  60px;
+    border-radius:0px 5px 5px 0px; 
+    animation-name: animaDBarraDeMenuFechar;
+    animation-duration: 0.5s;
+
+}
+
+#dBarraDeMenuAberto:hover{
+
+    animation-name: animaDBarraDeMenuAbrir;
+    
+    left: -5px; 
+}
+
+@keyframes animaDBarraDeMenuAbrir{
+
+    from{
+        left: -200px;
+        
+    }
+    
+    to{ 
+        left: -5px; 
+    }
+}
+
+
+@keyframes animaDBarraDeMenuFechar{
+
+    from{
+         left: -5px;
+       
+
+    }
+    
+    to{ 
+        left: -222px;
+        
+    }
+} 
+
+
+#tabelaDeMenuAberto{
+   
+    width: 239px;
+    height: 590px;
+}
+
+#tabelaDeMenuAberto tr td{
+
+    padding: 0px 30px 0px 6px;
+    margin-bottom:10px;
+    
+   
+    
+}
+
+
+.botaoQuadradosDeMenu{
+
+    width: 68px;
+    height: 58px;
+    border-radius: 6px;
+    background-color: white;
+    border: solid white 1px;
+    position: relative;
+}
+
+.botaoQuadradosDeMenu::after{
+
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 57px;
+    left:-12px;
+    background-color: white;
+    top:0px;
+
+}
+.letrasDoMenu{
+    font-family: 'Comic Sans MS';
+    font-size: 12px;
+ 
+}
+
+.trMeusCadernos:hover{
+ 
+    background-color: rgb(0,162,232); ;
+}
+#linhaDeDivDeInicio{
+
+    background-color: white;
+     width:50px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:-1px;
+     margin-left:-7px;
+}
+
+#linhaDeDivDeASeguir{
+
+    background-color: white;
+     width:70px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:-1px;
+     margin-left:-7px;
+}
+
+#linhaDeDivDeGuardados{
+
+    background-color: white;
+     width:74px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:-1px;
+     margin-left:-7px;
+}
+
+#linhaDeDivDeMinhasResponsabilidades1{
+
+    background-color: white;
+     width:52px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:-1px;
+     margin-left:-7px;
+}
+
+
+#linhaDeDivDeMinhasResponsabilidades2{
+
+    background-color: white;
+     width:114px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:-1px;
+     margin-left:-7px;
+}
+
+#linhaDeDivDeMeusCadernos{
+
+    background-color: white;
+     width:100px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:-1px;
+     margin-left:-7px;
+}
+
+#linhaDeDivDeModoConcentracao1{
+
+    background-color: white;
+     width:42px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:0px;
+     margin-left:-6px;
+}
+
+#linhaDeDivDeModoConcentracao2{
+
+    background-color: white;
+     width:87px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:0px;
+     margin-left:-6px;
+}
+
+#linhaDeDivDeOutrasOpcoes{
+
+    background-color: white;
+     width:100px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:1px;
+     margin-left:-7px;
+}
+#linhaDeDivDeAjustes1{
+
+    background-color: white;
+     width:77px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:-1px;
+     margin-left:-7px;
+}
+
+#linhaDeDivDeAjustes2{
+
+    background-color: white;
+     width:58px ;
+     height:1px;
+     border: none;
+     position:absolute;
+     margin-top:-1px;
+     margin-left:-7px;
+}
+
+
+/* Icones de Direita________________________________________________________________________________________________*/
+
+#dBarraDireita{
+
+    
+    background-color: rgb(227,193,227);
+    position: absolute;
+    margin-left: 1264px ;
+    top: 60px;
+    width: 65px;
+    padding: 6px;
+    height: 585px;
+    border-radius:7px 0px 0px 0px;
+
+}
+/*.tabelaDaBarraDireita{
+
+    
+}*/
+.tabelaDaBarraDireita tr td{
+
+    padding-bottom: 14px;
+
+}
+.botaoDaBarraDireita{
+
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px outset;
+    border-color: transparent rgb( 163,73,164) rgb( 163,73,164)  transparent;
+ 
+
+}
+.botaoDaBarraDireita:hover{
+
+    border: 2px outset;
+    border-color: transparent rgb(239, 9, 243) rgb(239, 9, 243) transparent;
+ 
+    
+
+}
+.imagemDoBotaoDaBarraDireita{
+
+    border-radius: 50%;
+    
+
+}
+
+#botaoDeNotificacaoDaBarraDireita{
+
+    margin-top: 20px;
+
+}
+
+
+.botaoDaBarraDireita:focus{
+    animation-name: animaBotaoDaBarraDireita;
+    animation-duration: 0.1s;
+    
+}
+@keyframes animaBotaoDaBarraDireita{
+
+    from{
+        
+        border: 2px inset;
+        border-color: rgb( 163,73,164) transparent   transparent rgb( 163,73,164) ;
+       
+    }
+    80%{
+        border: 2px inset;
+        border-color:  rgb( 163,73,164) transparent   transparent rgb( 163,73,164) ;
+       
+    }
+    to{
+        border: 2px outset;
+        border-color: transparent rgb( 163,73,164) rgb( 163,73,164)  transparent ;
+       
+    }
+}
+
+#fontAviso{
+
+    font-size: 45px;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#botaoCirculoCriar{
+
+    background-color: white;
+    border: 3px outset white ;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+#botaoCirculoCriar:hover{
+
+    background-color: rgba(80, 74, 74, 0.060); 
+}
+
+#botaoCirculoCriar:active{
+
+    border: 3px inset white ;
+}
+
+#fontCriar{
+
+    
+    font-size: 30px;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+
+
+/* Fim de ícones da direita________________________*/
+
+
+
+a{ 
+}
+
+a:hover{
+
+    color: rgb( 163,73,164);
+}
